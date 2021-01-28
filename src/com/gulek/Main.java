@@ -15,5 +15,6 @@ public class Main {
         System.out.println(cow.getLegs());
         cow.setLegs(10);
         System.out.println(cow.getLegs());
+        System.out.println(fawo.getLegs());
     }
 }
