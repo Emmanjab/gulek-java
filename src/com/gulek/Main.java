@@ -8,6 +8,7 @@ public class Main {
 
         Animal cow = new Animal(4, "moo", "calf");
         Animal fawo = new Animal(2, "clurk", "chic");
+        Animal elephant = new Animal(6, "sound", "baby");
 
 	// write your code here
         System.out.println(fawo.getSound());
@@ -16,5 +17,7 @@ public class Main {
         cow.setLegs(10);
         System.out.println(cow.getLegs());
         System.out.println(fawo.getLegs());
+        System.out.println(elephant.getLegs());
+        System.out.println("Cloning");
     }
 }
